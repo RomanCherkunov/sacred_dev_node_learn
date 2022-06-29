@@ -1,0 +1,22 @@
+GET http://127.0.0.1:3001/test
+
+###
+
+GET http://127.0.0.1:3001/goods/
+
+###
+
+POST http://127.0.0.1:3001/test
+Content-Type: application/json
+
+{
+    "param1": 1
+}
+
+###
+
+PUT http://127.0.0.1/test
+
+###
+
+DELETE http://127.0.0.1/test

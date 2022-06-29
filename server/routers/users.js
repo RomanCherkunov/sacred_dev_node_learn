@@ -1,0 +1,13 @@
+const get = (req, res) => {
+    res.status(200).send([{id: 1, caption: 'user 1'},
+                          {id: 1, caption: 'user 2'},
+    ])
+}
+
+const def = (route) => {
+    if(route) {
+        route.get('/', get)
+    }
+}
+
+module.exports = def

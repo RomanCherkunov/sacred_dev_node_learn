@@ -1,0 +1,11 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "ENV Developer" :{
+            "hostname": "http://localhost:3001"
+        },
+        "ENV Test" :{
+            "hostname": "http://localhost:3002"
+        }
+    }
+}

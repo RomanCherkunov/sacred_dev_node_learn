@@ -10,7 +10,8 @@ app.use(express.json())
 
 // app.use((req, res, next) => {
 //     console.log(req.body)
-//     res.status(265).send('Helloshe4ki')
+//     res.status(265).json('Helloshe4ki')
+//     next()
 // })
 
 
